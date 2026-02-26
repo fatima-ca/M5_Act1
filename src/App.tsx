@@ -2,7 +2,9 @@ import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import CardSet from './components/CardSet'
-import OpinionCardSet from './components/OpinionCardSet'
+import PrimaryButton from './components/PrimaryButton'
+import SidebarMenu from './components/SidebarMenu'
+
 
 function App() {
   
@@ -10,8 +12,17 @@ function App() {
   return (
     <>
       <Header />
+      <div className="flex flex-row gap-4 justify-center">
+        <div>
+        <SidebarMenu />
+        </div>
+        <div>
+          <PrimaryButton />
       <CardSet />
-      {/*<OpinionCardSet />*/}
+      <PrimaryButton />
+      </div>
+      </div>
+      
       <Footer />
       
       

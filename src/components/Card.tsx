@@ -1,5 +1,6 @@
 import { useState } from "react";
 import HeartButton from "./HeartButton";
+import PrimaryButton from "./PrimaryButton";
 
 interface CardProps {
   imagen: string;
@@ -12,7 +13,7 @@ function Card(props: CardProps) {
   const [contador, setContador] = useState<number>(0);
   
   return ( 
-    <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+    <div className="p-4 md:w-3/4 sm:w-3/4 w-full">
       <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
 
         {/* imagen de la pintura */}
@@ -27,9 +28,13 @@ function Card(props: CardProps) {
         {/* tecnica */}
         <p className="leading-relaxed">{props.tecnica}</p>
 
+        <div className="flex justify-center">
         {/* boton de like */}
         <HeartButton contador={contador} setContador={setContador} />
 
+        {/* PrimaryButton */}
+        <PrimaryButton/>
+        </div>
       </div>
     </div>
   )

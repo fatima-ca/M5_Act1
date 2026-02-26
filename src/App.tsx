@@ -14,13 +14,11 @@ function App() {
       <Header />
       <div className="flex flex-row gap-4 justify-center">
         <div>
-        <SidebarMenu />
+          <SidebarMenu />
         </div>
         <div>
-          <PrimaryButton />
-      <CardSet />
-      <PrimaryButton />
-      </div>
+          <CardSet />
+        </div>
       </div>
       
       <Footer />

@@ -2,9 +2,9 @@
 
 Decisiones de diseño
 
--El diseño de esta página tuvo un unfoque minimalist, con una paleta de colores limitada,
+-El diseño de esta página tuvo un enfoque minimalista, con una paleta de colores limitada,
 esto con el objetivo de dar protagonismo a las obras de las pintoras y pintores, así como evitar 
-saturar la vista del usuario. 
+saturar la vista del usuario.
 
 --------------
 -Las utilidades que mayormete utilicé son las siguientes:
